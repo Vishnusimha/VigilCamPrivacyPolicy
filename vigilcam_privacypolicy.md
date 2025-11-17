@@ -32,6 +32,10 @@ This is the end-user privacy policy intended to be published for users. It does 
 
 The app does not upload recordings or preferences to any external servers by default.
 
+Other technical data:
+
+- This app does not collect analytics, crash reports, advertising identifiers, or other telemetry. No data is sent to external servers unless you explicitly share a recording.
+
 ---
 
 ## Permissions (what they are used for)
@@ -50,6 +54,11 @@ The app does not upload recordings or preferences to any external servers by def
 - Default storage: Recordings are saved in the app's private external storage directories (e.g., `Android/data/<package>/files/Movies`).
 - Publish to gallery: If you choose to publish a recording, the app copies the file to your device's gallery (MediaStore) so it is visible to other apps on your device.
 - Delete: Delete recordings using the in-app UI. To remove all app data, uninstall the app from your device (this removes app-scoped files). If you published a recording to the gallery, delete it from the gallery as well.
+
+- Delete: Delete recordings using the in-app UI. To remove all app data, uninstall the app from your device (this removes app-scoped files). If you published a recording to the gallery, delete it from the gallery as well.
+
+- Retention: Recordings remain on your device until you delete them. Uninstalling the app removes app-scoped files; if you published a recording to the gallery, that copy remains until you delete it from the gallery.
+- Temporary files: The app may create temporary files during recording; these are removed when a recording is finalized or when the app's cache is cleared.
 
 ---
 
@@ -71,11 +80,19 @@ The app does not upload recordings or preferences to any external servers by def
 - Files are stored in app-scoped storage to limit access by other apps.
 - The app uses `FileProvider` to securely share files when required.
 
+## Third-party services
+
+- This app does not use third-party analytics, ad networks, or cloud storage providers. It uses Android Jetpack libraries (WorkManager, DataStore) and Hilt for local functionality.
+
 ---
 
 ## Children and age restrictions
 
 VigilCam is not directed to children. The app is intended for use by adults and individuals who meet the minimum age required in their jurisdiction. The app does not knowingly collect personal data from children under the applicable minimum age. If you are a parent or guardian and believe your child has provided personal data to the App, remove the app from the child's device and delete any recordings created by the child.
+
+## Legal responsibility and consent
+
+Recordings may capture other people's voices and images. It is your responsibility to comply with local laws when recording. Obtain any required consent before making recordings.
 
 ---
 
@@ -90,6 +107,8 @@ VigilCam is not directed to children. The app is intended for use by adults and 
 
 If you have any questions about this Privacy Policy, please contact us at: `vishnusimhaplaystore@gmail.com`
 
+To request a copy of your personal data or to request deletion, email `vishnusimhaplaystore@gmail.com`. We aim to respond within 30 days.
+
 ---
 
 ## Changes to this policy
@@ -99,7 +118,4 @@ We may update this policy from time to time. The effective date above shows when
 Revision history:
 
 - 2025-11-17: Final end-user privacy policy.
-
-
-
 

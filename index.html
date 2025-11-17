@@ -47,6 +47,12 @@ experience.</li>
 </ol>
 <p>The app does not upload recordings or preferences to any external
 servers by default.</p>
+<p>Other technical data:</p>
+<ul>
+<li>This app does not collect analytics, crash reports, advertising
+identifiers, or other telemetry. No data is sent to external servers
+unless you explicitly share a recording.</li>
+</ul>
 <hr />
 <h2 id="permissions-what-they-are-used-for">Permissions (what they are
 used for)</h2>
@@ -68,16 +74,27 @@ on older devices; modern Android uses scoped storage instead.</li>
 <h2 id="how-recordings-are-handled-and-how-to-delete-them">How
 recordings are handled and how to delete them</h2>
 <ul>
-<li>Default storage: Recordings are saved in the app’s private external
-storage directories (e.g.,
-<code>Android/data/&lt;package&gt;/files/Movies</code>).</li>
-<li>Publish to gallery: If you choose to publish a recording, the app
+<li><p>Default storage: Recordings are saved in the app’s private
+external storage directories (e.g.,
+<code>Android/data/&lt;package&gt;/files/Movies</code>).</p></li>
+<li><p>Publish to gallery: If you choose to publish a recording, the app
 copies the file to your device’s gallery (MediaStore) so it is visible
-to other apps on your device.</li>
-<li>Delete: Delete recordings using the in-app UI. To remove all app
+to other apps on your device.</p></li>
+<li><p>Delete: Delete recordings using the in-app UI. To remove all app
 data, uninstall the app from your device (this removes app-scoped
 files). If you published a recording to the gallery, delete it from the
-gallery as well.</li>
+gallery as well.</p></li>
+<li><p>Delete: Delete recordings using the in-app UI. To remove all app
+data, uninstall the app from your device (this removes app-scoped
+files). If you published a recording to the gallery, delete it from the
+gallery as well.</p></li>
+<li><p>Retention: Recordings remain on your device until you delete
+them. Uninstalling the app removes app-scoped files; if you published a
+recording to the gallery, that copy remains until you delete it from the
+gallery.</p></li>
+<li><p>Temporary files: The app may create temporary files during
+recording; these are removed when a recording is finalized or when the
+app’s cache is cleared.</p></li>
 </ul>
 <hr />
 <h2 id="backups">Backups</h2>
@@ -103,6 +120,12 @@ apps.</li>
 <li>The app uses <code>FileProvider</code> to securely share files when
 required.</li>
 </ul>
+<h2 id="third-party-services">Third-party services</h2>
+<ul>
+<li>This app does not use third-party analytics, ad networks, or cloud
+storage providers. It uses Android Jetpack libraries (WorkManager,
+DataStore) and Hilt for local functionality.</li>
+</ul>
 <hr />
 <h2 id="children-and-age-restrictions">Children and age
 restrictions</h2>
@@ -113,6 +136,11 @@ children under the applicable minimum age. If you are a parent or
 guardian and believe your child has provided personal data to the App,
 remove the app from the child’s device and delete any recordings created
 by the child.</p>
+<h2 id="legal-responsibility-and-consent">Legal responsibility and
+consent</h2>
+<p>Recordings may capture other people’s voices and images. It is your
+responsibility to comply with local laws when recording. Obtain any
+required consent before making recordings.</p>
 <hr />
 <h2 id="how-to-revoke-permissions-and-delete-data">How to revoke
 permissions and delete data</h2>
@@ -126,6 +154,9 @@ app to remove app-scoped files.</li>
 <h2 id="contact">Contact</h2>
 <p>If you have any questions about this Privacy Policy, please contact
 us at: <code>vishnusimhaplaystore@gmail.com</code></p>
+<p>To request a copy of your personal data or to request deletion, email
+<code>vishnusimhaplaystore@gmail.com</code>. We aim to respond within 30
+days.</p>
 <hr />
 <h2 id="changes-to-this-policy">Changes to this policy</h2>
 <p>We may update this policy from time to time. The effective date above
